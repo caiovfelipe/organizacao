@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2? família=Fuzzy+Bubbles&display=swap');
+
+
+:root{
+    --font-titulo: 'Fuzzy Bubbles', cursive;
+    --font-padrao: 'Mukta', sans-serif;
+}
+
+header{
+    background-color: aquamarine;
+    text-align: center;
+   
+}
+
+h1{
+    font-family: var(--font-titulo);
+}
+
+main{
+    font-family: var(--font-padrao);
+    font-weight: normal;
+}
+
+h3{
+    font-size: 2vw;
+}
+
+p{
+    font-size: 1.3vw;
+}
