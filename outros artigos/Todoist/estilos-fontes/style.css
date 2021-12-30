@@ -3,22 +3,22 @@
 @import url('https://fonts.googleapis.com/css2? família=Fuzzy+Bubbles&display=swap');
 
 
-:root{
+    :root{
     --font-titulo: 'Fuzzy Bubbles', cursive;
     --font-padrao: 'Mukta', sans-serif;
 }
 
-*{
+    *{
     padding: 0px;
     margin: 0px;
 }
 
-body{
+    body{
     background-color: rgb(236, 202, 158); 
    
 }
 
-main{
+    main{
     font-family: var(--font-padrao);
     font-weight: normal;
     padding: 20px;
@@ -33,29 +33,35 @@ main{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
 }
 
-header {
+    header {
     text-align: center;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363);
     background-image: linear-gradient(to bottom, aquamarine, rgb(1, 184, 123) );
     font-family: var(--font-titulo);
 }
 
-p#sub-titulo {
+    p#sub-titulo {
   
         padding-bottom: 60px;
    
 }
 
-h1{
+    h1{
     font-family: var(--font-titulo);
     padding-top: 60px;
+    font-size: 40px;
 }
 
-h2{
+    h2{
     padding-top: 30px;
+    font-size: 40px;
 }
 
-div.video{
+    h3{
+    font-size: 25px;
+}
+
+    div.video{
     background-color: royalblue;
     margin: 0px -20px 0px -20px;
     padding: 20px;
@@ -69,4 +75,22 @@ div.video{
     left: 5%;
     width: 90%;
     height: 90%;
-    }
+}
+
+.img{
+    text-align: center;
+}
+
+
+    footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--font-padrao);
+}
+
+    footer > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
